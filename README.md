@@ -62,23 +62,7 @@ let value: any = "Hello";
 value = 10;
 value = true;
 
-
 ```
-#  Understanding `any`, `unknown`, and `never` in TypeScript
-
-TypeScript provides powerful type checking features that help catch errors early and improve code quality. Among its advanced types are `any`, `unknown`, and `never`. Each serves a different purpose and should be used appropriately.
-
----
-
-##  `any`
-
-The `any` type disables all type checking. A variable declared with `any` can hold **any value**, and TypeScript won't check its type at all.
-
-```ts
-let value: any = "Hello";
-value = 10;
-value = true;
-````
 
 ###  Use Case
 

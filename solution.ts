@@ -31,8 +31,8 @@ class Vehicle {
         this.year = year;
     }
 
-    public getInfo(): string {
-        return `Make: ${this.make}, Year: ${this.year}`
+    public getInfo(): void {
+        console.log(`Make: ${this.make}, Year: ${this.year}`);
     }
 }
 class Car extends Vehicle {
@@ -43,8 +43,8 @@ class Car extends Vehicle {
         this.model = model;
     }
 
-    public getModel(): string {
-        return `Model: ${this.model}`
+    public getModel(): void {
+        console.log(`Model: ${this.model}`);
     }
 }
 
